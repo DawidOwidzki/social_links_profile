@@ -6,20 +6,20 @@
 }
 @mixin text-preset-2(){
   color: $Green;
-  font-weight: 700;
+  font-weight: 800;
   letter-spacing: 1px;
   font-size: 0.8rem;
 }
 @mixin text-preset-3(){
   color:$Grey-200;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 0.8rem;
   letter-spacing: 0.6px;
 }
 @mixin button-preset-1(){
   background-color: $Grey-700;
   border-style: none;
-  padding: 1rem 5.7rem;
+  padding: 0.75rem 5.7rem;
   margin-top: 1rem;
   border-radius: 0.5rem;
   cursor: pointer;
