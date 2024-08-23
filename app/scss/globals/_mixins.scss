@@ -6,9 +6,9 @@
 }
 @mixin text-preset-2(){
   color: $Green;
-  font-weight: 800;
-  letter-spacing: 1px;
-  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.7px;
+  font-size: 0.85rem;
 }
 @mixin text-preset-3(){
   color:$Grey-200;
