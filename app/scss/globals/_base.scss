@@ -1,0 +1,23 @@
+@use "variables" as *;
+html{
+  box-sizing: border-box;
+  height: 100%;
+}
+*,
+::before,
+::after{
+  box-sizing: inherit;
+}
+body{
+  margin:0;
+  height: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $Grey-900;
+
+}
+*{
+  margin: 0;
+  padding: 0;
+}

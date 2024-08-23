@@ -1,0 +1,37 @@
+@use "variables" as *;
+@mixin text-preset-1(){
+  color: $White;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+@mixin text-preset-2(){
+  color: $Green;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+}
+@mixin text-preset-3(){
+  color:$Grey-200;
+  font-weight: 400;
+  font-size: 0.8rem;
+  letter-spacing: 0.6px;
+}
+@mixin button-preset-1(){
+  background-color: $Grey-700;
+  border-style: none;
+  padding: 1rem 5.7rem;
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+  color: $White;
+  &:hover{
+    background-color: $Grey-600;
+  }
+  &:active{
+    color:$Grey-900;
+    background-color: $Green;
+  }
+}

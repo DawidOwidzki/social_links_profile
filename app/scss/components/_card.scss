@@ -1,0 +1,39 @@
+@use "../globals/" as *;
+.social-profile{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding:2.5rem ;
+  background-color: $Grey-800;
+  border-radius: 0.75rem;
+  &_avatar{
+    width: 88px;
+    border-radius: 50%;
+  }
+  &__info{
+    margin-top: 1.25rem;
+    &_name{
+      @include text-preset-1();
+    }
+    &_location{
+      @include text-preset-2();
+      margin-top: 0.5rem;
+
+    }
+    &_caption{
+      @include text-preset-3();
+      margin-top: 1.75rem;
+    }
+  }
+  &__links{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5rem;
+    &_buttons{
+      @include button-preset-1();
+ 
+    }
+    
+  }
+}
